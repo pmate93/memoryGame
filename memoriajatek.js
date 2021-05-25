@@ -118,7 +118,6 @@ $('document').ready(function(){
                 setTimeout(function(){$('.clear').append('<br><button id="restart">Újra!</button>');}, 1000);
             }
         }
-        console.log(clickCounter);
     });
 
     $('body').on('click', '#restart', function(){
